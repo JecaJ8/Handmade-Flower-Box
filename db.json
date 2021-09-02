@@ -1,0 +1,149 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Red flower-box"
+    },
+    {
+      "id": 2,
+      "name": "Pink flower-box"
+    },
+    {
+      "id": 3,
+      "name": "White flower-box"
+    },
+    {
+      "id": 4,
+      "name": "Purple flower-box"
+    },
+    {
+      "id": 5,
+      "name": "Blue flower-box"
+    },
+    {
+      "id": 6,
+      "name": "Yellow flower-box"
+    }
+  ],
+  "products": [
+    {
+      "headline": "White roses in heart box.",
+      "price": "1500 RSD",
+      "image": "./img/1.jpg",
+      "categoryId": "3",
+      "id": 1
+    },
+    {
+      "headline": "Purple roses in heart box",
+      "price": "1500 RSD",
+      "image": "./img/2.jpg",
+      "categoryId": "4",
+      "id": 2
+    },
+    {
+      "headline": "Red roses in heart box.",
+      "price": "1500 RSD",
+      "image": "./img/4.jpg",
+      "categoryId": "1",
+      "id": 3
+    },
+    {
+      "headline": "Red roses box with tinkerbell.",
+      "price": "2500 RSD",
+      "image": "./img/13.jpg",
+      "categoryId": "1",
+      "id": 4
+    },
+    {
+      "headline": "Yellow roses box with tinkerbell.",
+      "price": "2500 RSD",
+      "image": "./img/10.jpg",
+      "categoryId": "6",
+      "id": 5
+    },
+    {
+      "headline": "Mermaid flower box",
+      "price": "1500 RSD",
+      "image": "./img/17.jpg",
+      "categoryId": "5",
+      "id": 6
+    },
+    {
+      "headline": "Mickey mouse flower-box",
+      "price": "1500 RSD",
+      "image": "./img/5.jpg",
+      "categoryId": "1",
+      "id": 7
+    },
+    {
+      "headline": "White roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/14.jpg",
+      "categoryId": "3",
+      "id": 10
+    },
+    {
+      "headline": "Yellow roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/16.jpg",
+      "categoryId": "6",
+      "id": 11
+    },
+    {
+      "headline": "Blue roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/20.jpg",
+      "categoryId": "5",
+      "id": 12
+    },
+    {
+      "headline": "Blue roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/25.jpg",
+      "categoryId": "5",
+      "id": 13
+    },
+    {
+      "headline": "Purple flower box",
+      "price": "1500 RSD",
+      "image": "./img/26.jpg",
+      "categoryId": "4",
+      "id": 14
+    },
+    {
+      "headline": "Pink roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/27.jpg",
+      "categoryId": "2",
+      "id": 15
+    },
+    {
+      "headline": "Colorfull roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/28.jpg",
+      "categoryId": "2",
+      "id": 16
+    },
+    {
+      "headline": "Red flower box",
+      "price": "1500 RSD",
+      "image": "./img/24.jpg",
+      "categoryId": "1",
+      "id": 17
+    },
+    {
+      "headline": "Pink roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/21.jpg",
+      "categoryId": "2",
+      "id": 18
+    },
+    {
+      "headline": "Pink roses flower box",
+      "price": "1500 RSD",
+      "image": "./img/22.jpg",
+      "categoryId": "2",
+      "id": 18
+    }
+  ]
+}

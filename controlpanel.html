@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/all.css">
+    <link rel="stylesheet" href="font-awesome/webfonts/">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="galerija-css/style.css">      
+    <title>Document</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="navigation">
+    <div class="nav">
+        <div class="navigation-leftside">
+            <ul>
+                <li><a href="index.html">pocetna strana</a></li>
+                <li><a href="#0">o nama</a></li>
+                <li><a href="galerija.html" target="blank">galerija</a></li>
+                <li><a href="#0">kontakt</a></li>
+            </ul>
+        </div>
+        <div class="logo-nav-wrap">
+            <a href="index.html"><div class="logo-nav"></div></a>
+        </div>
+        <div class="nav-contact">
+           <div class="control-panel" >
+            <a href="controlpanel.html" target="blank">Control panel</a>
+           </div>
+            <div class="media-nav">
+                <a href="#0">
+                    <i class="fab fa-instagram"></i>
+                </a>
+              
+                <a href="#0">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#0">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <input class="search"type="text" placeholder="search">
+        </div> 
+    </div>
+  </div>
+
+<div class="container productpad">
+  <div class="formProduct">
+            <h2>Add new Product</h2>
+            <div>
+                <label>Headline:</label>
+                <input id="headline">
+            </div> 
+            <div>
+                <label>Price:</label>
+                <input id="price">
+            </div>  
+    
+            <div>
+                <label>Image:</label>
+                <input id="image">
+            </div>
+            <div>
+                <label>Category:</label>
+                <select id="category"> </select>
+            </div>
+            <div>
+                <button onclick="add()">Add</button>
+            </div>
+
+    </div>
+    <div class="tableContainer">
+      <table class="table">
+          <thead>
+              <td>id</td>
+              <td>Headline</td>
+              <td>Price</td>
+              <td>CategoryId</td>
+              <td>Delete</td>
+          </thead>
+          <tbody id="tableContent">
+
+          </tbody>
+      </table>
+  </div>
+
+
+</div>
+
+
+
+
+    
+</div>
+
+
+
+<script src="vendor/jquery/jquery.min.js"></script>
+  <script src="js/control.js"></script>
+    
+</body>
+</html>
